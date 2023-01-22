@@ -25,8 +25,8 @@ function News() {
   }, []);
   
   
-  const firstThreeArticles = articles.slice(0,3);
-  const nextThreeArticles = articles.slice(3);
+  const firstThreeArticles = articles?articles.slice(0,3):'NULL';
+  const nextThreeArticles = articles?articles.slice(3):'NULL';
 
 
   return (
