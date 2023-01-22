@@ -1,0 +1,150 @@
+
+/* 1st section of main page start */
+.main1{
+    height: 90vh;
+    width: 100%;
+    display: grid;
+}  
+
+.main1Box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainImg{
+    margin-right: 2rem;
+    width: 450px;
+    height: 420px;
+}
+
+.mainPara{
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 50px;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.main1Button{
+    margin-left: 300px;
+    border-radius: 25px;
+    padding: 10px;
+    color: black;
+	background-color: #ffb7b7;
+	transition: .2s ease-in-out;
+    border: none;
+}
+
+.main1Button:hover{
+    color: #80ffd7;
+	background-color: black;
+}
+
+/* 1st section of the main page end */
+
+        
+
+        
+/* 2nd section of the main page start */
+
+.main2{
+    height: 100vh;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.sun{
+    height: 400px;
+    width: 350px;
+    z-index: 1;
+    float: left;
+}
+
+
+/* 2nd section of the main page ends */
+        
+.main2{
+    padding-top: 4rem;
+}
+
+.searchBar{
+    margin-top: 5%;
+}
+
+.sun{
+    width: 33rem;
+    margin-top: 3rem;
+}
+
+
+
+/* 3rd section of the main page start */
+
+.main3{
+    color: aliceblue;
+    height: 100vh;
+    
+}
+
+.main3h1{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+/* 3rd section of the main page ends */
+
+
+
+
+/* 4th section of the main page start */
+
+.main4{
+    color: aliceblue;
+    height: 70vh;
+    padding-top: 2rem;
+    margin-top: 4rem;
+    border-bottom: 0.1rem solid rgb(255, 170, 170);
+}
+
+.main4area{
+    display: flex;
+}
+
+.main4box{
+    margin-top: 1rem;
+}
+
+.main4box a {
+    text-transform: capitalize;
+    display: block; 
+    font-weight: 700;
+    width: 65vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    text-align: center; 
+    border-radius: 25px;
+    background-color: #000000;
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+}
+
+.main4box a:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    opacity: 1;
+}
+
+.tipsimage{
+    margin-left: 20rem;
+    margin-top: 3rem;
+    width: 35rem;
+}
+
+/* 4th section of the main page ends */

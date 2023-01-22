@@ -1,0 +1,49 @@
+.header {
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  } 
+  
+  .textLogo {
+    margin-left: 50px;
+    color: #ffffff;
+    transition: color 0.5s ease-in-out;
+    transition: text-shadow 0.5s ease-in-out;
+  }
+
+  .textLogo:hover {
+    color: white;
+    text-shadow: 0 0 10px #ffffff, 0 0 40px #f7f7f7;
+    box-shadow: none;
+    cursor: default;
+  }
+  
+  .headerItems {
+    color: #f7f7f7;
+    margin-left: auto;
+    padding: 0;
+    display: flex;
+    font-weight: 50;
+    font-size:16px;
+    margin-top: 10px;
+    
+  }
+  
+  .headerItems a {
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 80px;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+
+  .headerItems a:hover {
+    color: white;
+    cursor: pointer;
+    text-shadow: 0px 0px 15px #ffffff;
+    box-shadow: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
