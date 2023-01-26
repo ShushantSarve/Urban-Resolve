@@ -12,8 +12,8 @@ function Modal( {closeModal} ) {
             
             <div className='body'>
                 <h3 style={{fontFamily:'monospace'}}>Tell us about the issue</h3>
-                <input type="text" placeholder='Enter the location' required/>
-                <textarea type="text" className='issuebox' placeholder='Could you provide us with an overview of the situation?' required/>
+                <input type="text" placeholder='Enter the location' required />
+                <textarea type="text" className='issuebox' placeholder='Could you provide us with an overview of the situation?' required />
             </div>
 
             <div className='footer'>

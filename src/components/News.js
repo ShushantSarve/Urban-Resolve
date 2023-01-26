@@ -1,20 +1,23 @@
 import React, { useEffect, useState } from "react";
 import "./News.css";
 import defaultimg from '../Utilities/defaultNews.jpg'
+// import loader from '../Utilities/wifi.gif'
 
 
 function News() {
 
-  const url ="https://newsdata.io/api/1/news?apikey=pub_159762382799484f8db98c7c04a8422ce3596&q=pollution&country=in&language=en";
+  const url ="https://newsdata.io/api/1/news?apikey=pub_159762382799484f8db98c7c04a8422ce3596&q=pollution&language=en";
 
   const [articles, setArticles] = useState([]);
-  
+  // const [loading, setLoading] = useState(true);  
   
   const news = async () => {
     try {
+      // setLoading(true);
       const response = await fetch(url);
       const data = await response.json();
       setArticles(data.results);
+      // setLoading(false);
     } catch (error) {
       console.log(error);
     }
@@ -32,6 +35,7 @@ function News() {
 
   return (
       <>
+      {/* {loading && <img className="loadergif" src={loader} alt='spinner'/>} */}
         <div className="column1">
         {
           firstThreeArticles.map((element) => {
