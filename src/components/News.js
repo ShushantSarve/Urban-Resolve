@@ -5,7 +5,7 @@ import defaultimg from '../Utilities/defaultNews.jpg'
 
 function News() {
 
-  const url ="https://newsdata.io/api/1/news?apikey=pub_159762382799484f8db98c7c04a8422ce3596&q=pollution&country=in";
+  const url ="https://newsdata.io/api/1/news?apikey=pub_159762382799484f8db98c7c04a8422ce3596&q=pollution&country=in&language=en";
 
   const [articles, setArticles] = useState([]);
   
